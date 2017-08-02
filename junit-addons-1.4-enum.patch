@@ -1,0 +1,17 @@
+--- src/main/junitx/util/NamingUtil.java	2003-04-27 22:18:28.000000000 +0200
++++ src/main/junitx/util/NamingUtil.java.enum	2015-02-09 17:00:50.618451688 +0100
+@@ -77,11 +77,11 @@
+     /**
+      * Returns the values of a <tt>NamingEnumeration</tt> into a list.
+      */
+-    public static List toList(NamingEnumeration enum)
++    public static List toList(NamingEnumeration mune)
+             throws NamingException {
+         List result = new Vector();
+-        while (enum.hasMore()) {
+-            result.add(enum.next().toString());
++        while (mune.hasMore()) {
++            result.add(mune.next().toString());
+         }
+         return result;
+     }
