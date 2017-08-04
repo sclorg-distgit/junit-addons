@@ -3,7 +3,7 @@
 
 Name:          %{?scl_prefix}junit-addons
 Version:       1.4
-Release:       14.1%{?dist}
+Release:       14.2%{?dist}
 Summary:       JUnitX helper classes for JUnit
 License:       ASL 1.1
 Url:           http://sourceforge.net/projects/junit-addons/
@@ -111,6 +111,9 @@ export OPT_JAR_LIST=:
 %license LICENSE
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 1.4-14.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 1.4-14.1
 - Automated package import and SCL-ization
 
